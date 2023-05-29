@@ -24,6 +24,5 @@ window.onload = function() {
 
   let excuse = who[n1] + " " + action[n2] + " " + what[n3] + " " + when[n4];
 
-  console.log(who[n1] + " " + action[n2] + " " + what[n3] + " " + when[n4]);
+  document.getElementById("excuse").innerHTML = excuse;
 };
-
